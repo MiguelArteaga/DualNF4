@@ -1,0 +1,49 @@
+
+
+#div2{
+	float: right;
+	padding-right: 5%;
+
+	
+
+}
+
+#div3{
+	width: 400px;
+    height: 150px;
+	background-color:#f9df8e;
+	padding: 5%
+	margin: 5%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	float: left;
+	padding-left: 2%;
+	border: 1px solid #000000  ;
+	position: relative;
+	bottom: -300px;
+
+}
+
+
+#div4{
+	width: 600px;
+    height: 150px;
+	background-color:#f9df8e;
+	padding: 5%
+	margin: 5%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	float: left;
+	padding-left: 2%;
+	border: 1px solid #000000  ;
+	position: relative;
+	bottom: -300px;
+
+}
+#h1titulos{
+
+	position: relative;
+	bottom: -300px;
+}
