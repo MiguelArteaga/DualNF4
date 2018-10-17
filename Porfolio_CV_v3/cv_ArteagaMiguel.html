@@ -16,11 +16,11 @@
 <div class="container mt-3">
 	<!-- Nav tabs -->
   <ul class="nav nav-tabs">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#cv">CV</a>
+  	<li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#quisou">Qui sou</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#quisou">Qui sou</a>
+      <a class="nav-link " data-toggle="tab" href="#cv">CV</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#contacte">Contacte</a>
@@ -29,7 +29,7 @@
 
   <!-- Tab panes -->
 	<div class="tab-content">
-		<div id="quisou" class="container tab-pane fade"><br>
+		<div id="quisou" class="container tab-pane active"><br>
 			<h1 class="bg-primary text-white" align="center">CV</h1>
 
 
@@ -42,12 +42,7 @@
 					 Apellidos: Arteaga Valle<br>
 					 Fecha Nacimiento: 30/04/1996<br>
 				</div>
-			</font>
-		</div>
-
-
-		<div id="contacte" class="container tab-pane fade"><br>
-			<h1 class="bg-info text-white" >DATOS PERSONALES </h1>
+				<h1 class="bg-info text-white" >DATOS PERSONALES </h1>
 			
 
 			<br>
@@ -57,9 +52,33 @@
 					 Direccion: C/ maria 12 <br>
 				</div>
 			</font>
+			</font>
+		</div>
+
+
+		<div id="contacte" class="container tab-pane fade"><br>
+			<h1 class="bg-info text-white" >CONTACTE </h1>
+			<div class="jumbotron">
+				<form action="/my-handling-form-page" method="post">
+				    <div>
+				        <label for="name">Nom:</label>
+				        <input type="text" id="nom" />
+				    </div>
+				    <div>
+				        <label for="mail">E-mail:</label>
+				        <input type="email" id="mail" />
+				    </div>
+				    <div>
+				        <label for="msg">Missatge:</label>
+				        <textarea id="msg"></textarea>
+				    </div>
+				    <br><br>
+				  	<button type="sumit">Enviar</button>
+				</form>
+		    </div>
 			
 		</div>
-		<div id="cv" class="container tab-pane active"><br>
+		<div id="cv" class="container tab-pane fade"><br>
 			<h1 class="bg-info text-white">ESTUDIOS </h1>
 			
 			<br>
