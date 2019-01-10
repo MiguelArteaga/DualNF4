@@ -1,10 +1,14 @@
-var path = require("path")
-extension = "txt"
-list=["a.txt","b.txt","c.txt","c.doc"]
-
-list.forEach(function(item){
-	if(path.extname(item)=== extension){
-		console.log(item)
-	}
-
+var fs = require('fs')
+var folder = process.argv[2]
+var extension = process.argv[3]
+fs.readdir(folder, function callback (err,list)
+ {
+	//console.log(list)
+	list.forEach(myFunction)
 })
+
+function myFunction(item){
+	if(item.split('.')[1] == extension){
+	  console.log(item)
+	}
+}
